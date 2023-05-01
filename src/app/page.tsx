@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from 'react'
 import styles from './page.module.css'
-import Typed from 'typed.js';
 
 export default function Home() {
 

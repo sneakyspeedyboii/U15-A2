@@ -28,12 +28,12 @@ export default function Home({ is_home }: { is_home: boolean }) {
   }
 
   function triggerDrawer() {
-    if (drawerState) {
+    if (drawerState && navBar.current != null) {
       navBar.current.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
       navBar.current.style.boxShadow = 'var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)';
       document.body.style.overflow = "auto";
       setDrawerState(false);
-    } else {
+    } else if (navBar.current != null) {
       navBar.current.style.backgroundColor = 'white';
       navBar.current.style.boxShadow = 'none';
 
@@ -53,10 +53,13 @@ export default function Home({ is_home }: { is_home: boolean }) {
   function push(path: string) {
     router.push(path);
     setDrawerState(false);
-    navBar.current.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-    navBar.current.style.boxShadow = 'var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)';
-      
-    document.body.style.overflow = "auto";
+    if (navBar.current != null) {
+      navBar.current.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+      navBar.current.style.boxShadow = 'var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)';
+
+      document.body.style.overflow = "auto";
+    }
+
   }
 
 
