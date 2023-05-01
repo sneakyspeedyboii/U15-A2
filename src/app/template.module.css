@@ -1,0 +1,15 @@
+.root {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(255, 136, 0);
+
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin-top: 45px;
+    min-height: calc(100% - 45px);
+}
