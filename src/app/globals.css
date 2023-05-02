@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
 /* ::-webkit-scrollbar {
     position: absolute;
     top: 0px;

@@ -1,0 +1,50 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12.1px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 200;
+}
+
+.window_container {
+    
+   
+    width: 600px;
+    height: 300px;
+
+    padding: 25px;
+
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.window_container button {
+    border: 2px black solid;
+    border-radius: 1.5rem;
+    padding: 10px;
+
+    font-weight: 200;
+    font-size: 15px;
+    background-color: rgb(34, 30, 104);
+    color: white;
+    cursor: pointer;
+}
