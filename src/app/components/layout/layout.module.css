@@ -1,0 +1,9 @@
+.root_container {
+    width: 100%;
+    min-height: calc(100vh - 46px);
+
+    margin-top: 46px;
+
+    background-color: var(--darkest-blue);
+
+}

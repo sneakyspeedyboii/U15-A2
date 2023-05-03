@@ -3,25 +3,23 @@
 * {
   padding: 0;
   margin: 0;
+
+  /* Colour palet */
+  --darkest-blue: #000318;
+  --darker-blue: #050d49;
+  --dark-blue: #00095e;
+  --light-blue: #0014b7;
+  --mid-purple:#3c2591;
+  --text: white;
+  --body-text: rgb(200, 200, 200);
+
+  font-family: "Inter", sans-serif;
 }
 
-body {
-  overflow: hidden;
+:root {
+  color: white;
+  background-color: black;
 }
 
-/* ::-webkit-scrollbar {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 10px;
-  }
 
-::-webkit-scrollbar-track {
-  background-color: rgb(255, 136, 0);
-}
 
-::-webkit-scrollbar-thumb {
-  background-color: white;
-  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
-  border-radius: 9999px;
-} */
