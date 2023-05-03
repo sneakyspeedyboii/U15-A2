@@ -1,7 +1,8 @@
 "use client";
-
+import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from 'react'
 import styles from './page.module.css'
+import Bean from './components/navbar/bean'
 
 export default function Home() {
 
@@ -14,20 +15,14 @@ export default function Home() {
           <div className={styles.sub_sub_header}>Get ready for a website which will finally show what your company is capable off.</div>
         </div>
         <div className={styles.right_container}>
-
-          <div className={styles.typing}>
-            <div className={styles.header}>We help with:</div>
-            <div>fix later</div>
-          </div>
-
-          <div className={styles.console}>console text here</div>
+          
         </div>
       </div>
 
       <div className={styles.about_one_container}>
         <div className={styles.left_container}>
           <div className={styles.orbit_container}>
-            <div className={styles.center}>c</div>
+            <div className={styles.center}><Bean/></div>
             <div>
               <ul className={styles.ring}>
                 <li className={styles.icon}><div>react</div></li>

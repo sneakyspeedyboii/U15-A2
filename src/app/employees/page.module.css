@@ -53,18 +53,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 700px);
     justify-content: space-evenly;
-    row-gap: 75px;;
+    row-gap: 25px;
 }
 
 .employee {
-
-    margin-top: 25px;
     padding: 50px;
+    gap: 50px;
 
     background-color: rgb(34, 30, 104);
     border: 2px transparent solid;
-
-
     border-radius: 1.5rem;
 
     display: flex;
@@ -121,9 +118,22 @@
 
 .image_container {
     width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.image {
+    width: 250px;
+    aspect-ratio: 1/1;
+    border: 2px white solid;
+    border-radius: 9999px;
+    position: relative;
+    overflow: hidden;
 
+}
 @keyframes headerScroll {
     0% {
         background-position: 0px;

@@ -69,16 +69,6 @@
     border-radius: 1.5rem;
 }
 
-.intro_container .typing .header {
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.intro_container .typing .typewriter {
-    font-size: 60px;
-    font-weight: 600;
-}
-
 
 
 
@@ -112,7 +102,7 @@
     width: 250px;
     height: 250px;
 
-    border: solid 2px rgba(33, 150, 243, 0.8);
+    border: solid 2px rgb(34, 30, 104);
     position: relative;
     padding: 0;
     border-radius: 50%;
@@ -121,7 +111,6 @@
 
     animation: clockwiseRotate 20s linear infinite;
 }
-
 
 .about_one_container .icon {
     display: block;
@@ -157,13 +146,16 @@
 
 .about_one_container .center {
     z-index: 5;
-    font-size: 2em;
-    width: 1.8em;
-    height: 1.8em;
-    line-height: 1.8em;
-    text-align: center;
-    background: blue;
-    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    
+    background: rgb(150, 150, 150);
+    border: 1px black solid;
+    border-radius: 9999px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about_one_container .icon div {

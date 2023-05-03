@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div className={styles.form_container}>
             <div className={styles.form}>
-              <input type="text" placeholder='FirstName' />
+              <input type="text" placeholder='Firstname' />
               <input type="text" placeholder='Surname' />
               <input type="date" placeholder='Date of Birth' />
               <input type="email" placeholder='Email' />
