@@ -18,7 +18,7 @@ export default function Employees() {
                             <div className={styles.name}>John Doe</div>
                             <div className={styles.position}>CEO</div>
                             <div className={styles.company_info}>Our thoughts: good ol john, we get paid to do the work for him, and then sometimes hes make decisions on what the company does.</div>
-                            <div className={styles.personal_description}>"Man i love hot beans" - John Doe</div>
+                            <div className={styles.personal_description}>Man i love hot beans - John Doe</div>
                             <div className={styles.email}>john@hotbeans.org.uk</div>
                         </div>
                         <div className={styles.image_container}>
@@ -44,7 +44,7 @@ export default function Employees() {
                             <div className={styles.name}>Man</div>
                             <div className={styles.position}>Dev manager</div>
                             <div className={styles.company_info}>Our guy that makes our developers develop. He does a good job</div>
-                            <div className={styles.personal_description}>"🦀🦀🦀🦀🦀🦀🦀🦀" - Man</div>
+                            <div className={styles.personal_description}>🦀🦀🦀🦀🦀🦀🦀🦀 - Man</div>
                             <div className={styles.email}>man@hotbeans.org.uk</div>
                         </div>
                         <div className={styles.image_container}>
@@ -57,7 +57,7 @@ export default function Employees() {
                             <div className={styles.name}>Man2</div>
                             <div className={styles.position}></div>
                             <div className={styles.company_info}>Our thoughts: good ol john, we get paid to do the work for him, and then sometimes hes make decisions on what the company does.</div>
-                            <div className={styles.personal_description}>"Man i love hot beans" - John Doe</div>
+                            <div className={styles.personal_description}>Man i love hot beans - John Doe</div>
                             <div className={styles.email}>john@hotbeans.org.uk</div>
                         </div>
                         <div className={styles.image_container}>
@@ -70,7 +70,7 @@ export default function Employees() {
                             <div className={styles.name}>John Doe</div>
                             <div className={styles.position}>CEO</div>
                             <div className={styles.company_info}>Our thoughts: good ol john, we get paid to do the work for him, and then sometimes hes make decisions on what the company does.</div>
-                            <div className={styles.personal_description}>"Man i love hot beans" - John Doe</div>
+                            <div className={styles.personal_description}>Man i love hot beans - John Doe</div>
                             <div className={styles.email}>john@hotbeans.org.uk</div>
                         </div>
                         <div className={styles.image_container}>
