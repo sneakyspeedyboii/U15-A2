@@ -5,11 +5,6 @@ import styles from './window.module.css'
 
 import { useState } from 'react';
 
-export const metadata = {
-  title: 'Hot Beans',
-  description: 'good ol company website',
-}
-
 
 
 export default function RootLayout({
