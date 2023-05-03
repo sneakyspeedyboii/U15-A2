@@ -1,222 +1,159 @@
 .main {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.main>* {
+    z-index: 3;
+}
+
+.header_container .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    background: radial-gradient(ellipse 80% 60% at 50% 0px, var(--darker-blue), rgba(255, 255, 255, 0));
+    z-index: 2;
 }
 
-.intro_container {
-    height: 500px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 1.5rem;
-}
-
-.intro_container .left_container {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    padding: 70px;
-}
-
-.intro_container .title {
-    font-size: 110px;
-    font-weight: 900;
-
-    background: url("/header_background.png");
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: headerScroll 40s linear infinite;
-
-}
-
-.intro_container .sub_header {
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.intro_container .sub_sub_header {
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: 500;
-    color: rgb(50, 50, 50);
-}
-
-
-.intro_container .right_container {
-    border-radius: 1.5rem;
-    width: 45%;
-    height: 72%;
-    padding: 70px;
-    background-color: rgb(34, 30, 104);
+.header_container {
+    width: 100%;
+    height: 580px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+    position: relative;
+
+
+}
+
+.header_container .container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    
-}
-
-.intro_container .typing {
-    background-color: rgb(255, 136, 0);
-    color: white;
-    width: 90%;
-    padding: 20px;
-    border-radius: 1.5rem;
-}
-
-
-
-
-.about_one_container {
-    margin-top: 50px;
-
-    background-color: white;
-
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 1.5rem;
+    z-index: 3;
 }
 
-.about_one_container .left_container {
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-}
-
-.about_one_container .orbit_container div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.about_one_container .ring {
-    width: 250px;
-    height: 250px;
-
-    border: solid 2px rgb(34, 30, 104);
-    position: relative;
-    padding: 0;
-    border-radius: 50%;
-    list-style: none;
-    box-sizing: content-box;
-
-    animation: clockwiseRotate 20s linear infinite;
-}
-
-.about_one_container .icon {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1.6em;
-    height: 1.6em;
-
-    margin: -1.6em;
-}
-
-.about_one_container .ring>*:nth-of-type(1) {
-    transform: rotate(72deg) translate(125px) rotate(-72deg);
-}
-
-.about_one_container .ring>*:nth-of-type(2) {
-    transform: rotate(144deg) translate(125px) rotate(-144deg);
-}
-
-.about_one_container .ring>*:nth-of-type(3) {
-    transform: rotate(216deg) translate(125px) rotate(-216deg);
-}
-
-.about_one_container .ring>*:nth-of-type(4) {
-    transform: rotate(288deg) translate(125px) rotate(-288deg);
-}   
-
-.about_one_container .ring>*:nth-of-type(5) {
-    transform: rotate(360deg) translate(125px) rotate(-360deg);
-}   
-
-.about_one_container .center {
-    z-index: 5;
-    width: 55px;
-    height: 55px;
-    
-    background: rgb(150, 150, 150);
-    border: 1px black solid;
-    border-radius: 9999px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about_one_container .icon div {
-    width: 1.6em;
-    height: 1.6em;
-    line-height: 1.6em;
-    font-size: 1.2em;
-    border-radius: 50%;
-    background: #ccc;
-    color: #fff;
+.header_container div {
     text-align: center;
-    display: block;
-
-    animation: counterClockwiseRotate 20s linear infinite;
 }
 
-.about_one_container .orbit_container {
+
+.header_container .name {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.header_container .header {
+    font-weight: 900;
+    font-size: 90px;
+}
+
+.header_container .sub_header {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.header_container .link_container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+.header_container .link {
+    display: block;
+    text-decoration: none;
+    color: white;
+
+    background-color: var(--mid-purple);
+
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+
+    border-radius: 1rem;
+    border: 2px rgba(255, 255, 255, 0.6) solid;
+
+    font-size: 25px;
+    font-weight: 300;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_container {
+    overflow: hidden;
     position: relative;
 }
 
-.about_one_container .right_container {
+.divider {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--light-blue) 12%, var(--mid-purple) 60%);
+    opacity: 0.5;
+    position: relative;
+}
+
+.left_glow {
+    position: absolute;
+    top: -255px;
+    left: -10%;
+    height: 250px;
+    width: 60%;
+    background: linear-gradient(180deg, #58a5ff, #a67af4);
+    filter: blur(500px);
+    z-index: 2;
+}
+
+.info_container .info {
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_container .left {
+    width: 40%;
+    height: 75%;
+    
     display: flex;
     flex-direction: column;
-    width: 60%;
-    padding: 70px;
-}
 
-.about_one_container .title {
-    font-size: 70px;
-    font-weight: 700;
+    justify-content: center;
 }
 
 
 
-
-@keyframes clockwiseRotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+.info_container .left .header {
+    font-weight: 800;
+    font-size: 60px;
 }
 
-@keyframes counterClockwiseRotate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(-360deg);
-    }
+.info_container .left .sub_header {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-@keyframes headerScroll {
-    0% {
-        background-position: 0px;
-    }
+.info_container .left .body {
+    font-weight: 300;
+    font-size: 20px;
+    
+    text-align: left;
+}
 
-    100% {
-        background-position: -1360px;
-    }
+.info_container .right {
+    width: 40%;
+    height: 100%;
 }
