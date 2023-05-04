@@ -30,7 +30,8 @@ export default function Home() {
     }, slides: {
       perView: "auto",
       spacing: 15,
-    }
+    },
+    renderMode: "precision",
   });
 
   return (
@@ -75,13 +76,24 @@ export default function Home() {
           </div>
           <div className={styles.right}>
             <div ref={sliderRef} className="keen-slider">
-            <div className={`${styles.slide} keen-slider__slide`}><div className={styles.react}><Image src={React} alt={"react"} fill={true}></Image></div></div>
-            <div className={`${styles.slide} keen-slider__slide`}><div className={styles.vue}><Image src={Vue} alt={"vue"} fill={true}></Image></div></div>
-            <div className={`${styles.slide} keen-slider__slide`}><div className={styles.angular}><Image src={Angular} alt={"angular"} fill={true}></Image></div></div>
-            <div className={`${styles.slide} keen-slider__slide`}><div className={styles.svelte}><Image src={Svelte} alt={"svelte"} fill={true}></Image></div></div>
-            <div className={`${styles.slide} keen-slider__slide`}><div className={styles.solid}><Image src={Solid} alt={"solid"} fill={true}></Image></div></div>
+              <div className={`${styles.slide} keen-slider__slide`}><div className={styles.react}><Image src={React} alt={"react"} fill={true}></Image></div></div>
+              <div className={`${styles.slide} keen-slider__slide`}><div className={styles.vue}><Image src={Vue} alt={"vue"} fill={true}></Image></div></div>
+              <div className={`${styles.slide} keen-slider__slide`}><div className={styles.angular}><Image src={Angular} alt={"angular"} fill={true}></Image></div></div>
+              <div className={`${styles.slide} keen-slider__slide`}><div className={styles.svelte}><Image src={Svelte} alt={"svelte"} fill={true}></Image></div></div>
+              <div className={`${styles.slide} keen-slider__slide`}><div className={styles.solid}><Image src={Solid} alt={"solid"} fill={true}></Image></div></div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.info2_container}>
+        <div className={styles.divider_container}>
+          <div className={styles.divider}></div>
+          <div className={styles.left_glow}></div>
+        </div>
+
+        <div className={styles.info2}>
+          
         </div>
       </div>
 
