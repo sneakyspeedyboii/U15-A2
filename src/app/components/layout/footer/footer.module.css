@@ -1,0 +1,84 @@
+
+.container {
+    height: 400px;
+    background-color: black;
+    border-top: 2px rgba(255, 255, 255, 0.2) solid;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo div {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.logo svg {
+    aspect-ratio: 1/1;
+    height: 46px;
+}
+
+.logo svg path {
+    stroke: white;
+}
+
+.pages {
+    width: 35%;
+}
+
+.pages div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.pages div a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: var(--darker-purple);
+    padding: 10px;
+    width: 120px;
+    border: 2px rgba(255, 255, 255, 0.2) solid;
+    border-radius: 1.5rem;
+    margin-top: 15px;
+}
+
+.mark {
+    font-family: "Silkscreen", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark .image_container {
+    width: 50px;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mark a { 
+    text-decoration: none;
+    font-size: 20px;
+    color: #3bf000;
+    transition-duration: 250ms;
+}
+
+.mark a:hover {
+    color: white;
+}
+

@@ -16,9 +16,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.3.0
     version: 13.3.0(eslint@8.38.0)(typescript@5.0.4)
-  framer-motion:
-    specifier: ^10.12.6
-    version: 10.12.6(react-dom@18.2.0)(react@18.2.0)
+  keen-slider:
+    specifier: ^6.8.5
+    version: 6.8.5
   next:
     specifier: 13.3.1-canary.4
     version: 13.3.1-canary.4(react-dom@18.2.0)(react@18.2.0)
@@ -31,9 +31,6 @@ dependencies:
   typescript:
     specifier: 5.0.4
     version: 5.0.4
-  xterm:
-    specifier: ^5.1.0
-    version: 5.1.0
 
 packages:
 
@@ -43,19 +40,6 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.11
     dev: false
-
-  /@emotion/is-prop-valid@0.8.8:
-    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
-    requiresBuild: true
-    dependencies:
-      '@emotion/memoize': 0.7.4
-    dev: false
-    optional: true
-
-  /@emotion/memoize@0.7.4:
-    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
-    dev: false
-    optional: true
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.38.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
@@ -1065,24 +1049,6 @@ packages:
       is-callable: 1.2.7
     dev: false
 
-  /framer-motion@10.12.6(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-1ad8olQf1nxVdsaqf6L6YUJndK0v4/UEtUvd0N6gosGtJqWN7C0+Pf95HXqJ38ZcYcgelmh5LkckuNwoKFG9WA==}
-    peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      tslib: 2.5.0
-    optionalDependencies:
-      '@emotion/is-prop-valid': 0.8.8
-    dev: false
-
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: false
@@ -1500,6 +1466,10 @@ packages:
     dependencies:
       array-includes: 3.1.6
       object.assign: 4.1.4
+    dev: false
+
+  /keen-slider@6.8.5:
+    resolution: {integrity: sha512-9yoosfffgTCrkmbX8kCUMWsn9KDgPSkxBof5/0yXde001D1xao7i9ppfxQCCK0MLnoCa+Rdssby0jFbTTUM4rw==}
     dev: false
 
   /language-subtag-registry@0.3.22:
@@ -2186,10 +2156,6 @@ packages:
 
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
-    dev: false
-
-  /xterm@5.1.0:
-    resolution: {integrity: sha512-LovENH4WDzpwynj+OTkLyZgJPeDom9Gra4DMlGAgz6pZhIDCQ+YuO7yfwanY+gVbn/mmZIStNOnVRU/ikQuAEQ==}
     dev: false
 
   /yallist@4.0.0:
