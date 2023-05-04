@@ -4,6 +4,7 @@ import './globals.css'
 import styles from './window.module.css'
 
 import { useState } from 'react';
+import Script from 'next/script'
 
 
 
@@ -34,6 +35,7 @@ export default function RootLayout({
               <button onClick={() => handle()}>I understand</button>
             </div>
           </div>
+          <Script async src="https://aly.felixklg.dev/VwDrVUy9RFqbFd6" data-website-id="68070bc2-d1c7-4d76-a738-51b7fd540403"></Script>
         </body>
       </html>
     )
