@@ -48,3 +48,18 @@
 .logo path {
     stroke: white;
 }
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.right line {   
+    transition-duration: 250ms;
+}
+
+.right:hover svg line {
+    stroke: var(--mid-purple);
+}
+
