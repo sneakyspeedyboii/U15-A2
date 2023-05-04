@@ -1,3 +1,5 @@
 # U15 - A2
 
 ## Website designed for assignment
+
+image:https://wakatime.com/badge/user/3ed95df9-07ec-4dd7-a315-aed05e1cc94f/project/97d8c6c7-29d5-45f4-9326-65dceaad7b35.svg["wakatime", link="https://wakatime.com/badge/user/3ed95df9-07ec-4dd7-a315-aed05e1cc94f/project/97d8c6c7-29d5-45f4-9326-65dceaad7b35"]
