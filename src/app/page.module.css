@@ -131,7 +131,7 @@
 .info_container .left {
     width: 40%;
     height: 75%;
-    
+
     display: flex;
     flex-direction: column;
 
@@ -155,7 +155,7 @@
 .info_container .left .body {
     font-weight: 300;
     font-size: 20px;
-    
+
     text-align: left;
 }
 
@@ -167,14 +167,13 @@
     justify-content: center;
     align-items: center;
 
-    mask-image: linear-gradient(90deg,transparent,#fff 90px,#fff calc(100% - 90px),transparent);
+    mask-image: linear-gradient(90deg, transparent, #fff 90px, #fff calc(100% - 90px), transparent);
 
-    -webkit-mask-image: linear-gradient(90deg,transparent,#fff 90px,#fff calc(100% - 90px),transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 90px, #fff calc(100% - 90px), transparent);
 }
 
 .info_container .slide {
     background-color: #0e0b33;
-    /* opacity: 0.2; */
     border: 2px rgba(255, 255, 255, 0.2) solid;
 
     display: flex;
@@ -254,4 +253,89 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.info2_container .right {
+    width: 40%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+
+.info2_container .right .header {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.info2_container .right .sub_header {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info2_container .right .body {
+    font-weight: 300;
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.info2_container .left {
+    width: 40%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.info2_container .left> * {
+    z-index: 3;
+}
+
+.info2_container .left .effect_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.info2_container .left .card {
+    background-color: #0e0b33;
+    border: 2px rgba(255, 255, 255, 0.2) solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 220px;
+    width: 340px;
+
+    border-radius: 2rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+.info2_container .left .next {
+    height: 100%;
+    aspect-ratio: 1900/926;
+    position: relative;
+}
+
+.info2_container .left .stripe {
+    height: 100%;
+    aspect-ratio: 1903/929;
+    position: relative;
+}
+
+.info2_container .left .turbo {
+    height: 100%;
+    aspect-ratio: 1901/925;
+    position: relative;
 }
