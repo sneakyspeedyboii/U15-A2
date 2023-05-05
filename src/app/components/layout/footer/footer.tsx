@@ -34,7 +34,7 @@ export default function Layout() {
                 <div className={styles.links}>
                     <Link href={"/"}>Home</Link>
                     <Link href={"/employees"}>Employees</Link>
-                    <Link href={"/oppotunities"}>Oppotunities</Link>
+                    <Link href={"/opportunities"}>Opportunities</Link>
                 </div>
             </div>
             <div className={styles.pages}>

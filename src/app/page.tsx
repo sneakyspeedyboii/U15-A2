@@ -109,8 +109,8 @@ export default function Home() {
             <div className={styles.sub_header}>A better way to showcase your company.</div>
           </div>
           <div className={styles.link_container}>
-            <Link className={styles.link} href={"/"}>Meet the team</Link>
-            <Link className={styles.link} href={"/"}>Opportunities here</Link>
+            <Link className={styles.link} href={"/employees"}>Meet the team</Link>
+            <Link className={styles.link} href={"/opportunities"}>Opportunities here</Link>
           </div>
         </div>
       </div>
