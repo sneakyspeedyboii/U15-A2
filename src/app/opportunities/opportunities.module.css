@@ -277,3 +277,10 @@ justify-content: space-evenly;
 .application_container .form button:hover {
     border: 2px white solid;
 }
+
+@media screen and (max-width: 1111px) {
+    .application_container .info {
+        flex-direction: column;
+    }
+    
+}
