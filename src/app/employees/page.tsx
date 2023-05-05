@@ -16,7 +16,7 @@ export default function Employees() {
                 <div className={styles.container}>
                     <div className={styles.header}>Meet our Team!</div>
                     <div>
-                        <div className={styles.sub_header}>Our way of being transparent</div>
+                        <div className={styles.sub_header}>Our way of being transparent.</div>
                         <div className={styles.sub_header}>We would like to give credit to the all the members of our team, which perform outstanding work to keep the company afloat!</div>
                     </div>
                 </div>
