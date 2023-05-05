@@ -79,9 +79,9 @@ export default function Layout() {
                 <div className={drawer.pages}>
                     <div>Pages</div>
                     <div className={drawer.links}>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/employees"}>Employees</Link>
-                        <Link href={"/oppotunities"}>Oppotunities</Link>
+                        <Link onClick={() => toggleDrawer()} href={"/"}>Home</Link>
+                        <Link onClick={() => toggleDrawer()} href={"/employees"}>Employees</Link>
+                        <Link onClick={() => toggleDrawer()} href={"/oppotunities"}>Oppotunities</Link>
                     </div>
                 </div>
                 <div className={drawer.pages}>
